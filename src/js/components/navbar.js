@@ -1,0 +1,35 @@
+let navbar = document.getElementById("navbar");
+navbar.innerHTML = `
+<nav class="navbar navbar-expand-lg bg-body-tertiary rounded-5 mt-3 animate__animated animate__fadeIn">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/index.html">
+        <img src="/src/assets/images/wikramaShop.png" style="margin-left: 15px; height: 20px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav d-flex justify-content-end ms-auto">
+        <a class="nav-link active text-center home" aria-current="page" href="/index.html">Home</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Solutions
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>        
+
+        <a class="nav-link text-center" style="margin-right: 10px;" href="#">Guide</a>
+        <a class="nav-link text-center" style="margin-right: 10px;" href="#">About</a>
+        <a class="nav-link text-center" style="margin-right: 10px;" href="#">Company</a>
+        <a class="nav-link text-center" style="margin-right: 10px;" href="#">Contact</a>
+        <a class="nav-link text-center btn-dashboard" href="#">Partners</a>
+      </div>
+    </div>
+  </div>
+</nav>
+`;

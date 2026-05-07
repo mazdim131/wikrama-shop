@@ -1,0 +1,25 @@
+.btn-dashboard {
+    background-color: #E67E22 !important;
+    color: white !important;
+    border-radius: 20px;
+}
+
+.btn-dashboard:hover {
+    border: 1px solid #E67E22;
+    color: #E67E22 !important;
+    background-color: white !important;
+    transform: translateX(10px);
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    transform: translateY(-3px);
+    border-bottom: 1px solid black;
+    transition: 0.3s ease-in-out;
+}
+
+@media(max-width: 768) {
+    .btn-dashboard {
+        margin-right: 0 !important;
+    }
+}

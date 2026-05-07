@@ -1,0 +1,16 @@
+.footer-card {
+  border-radius: 40px; 
+  color: #333;
+}
+.footer-card h6 {
+  margin-bottom: 20px;
+}
+
+.footer-card ul li {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.footer-card ul li:hover {
+  color: #000;
+}
