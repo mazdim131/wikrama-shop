@@ -10,7 +10,7 @@ footer.innerHTML = `
           <p class="text-muted w-75">
             Jl. Raya Wangun, Kelurahan Sindangsari,<br>
             Kecamatan Bogor Timur, Kota Bogor, Jawa Barat<br>
-            16146
+            16146.
           </p>
         </div>
 
@@ -19,7 +19,7 @@ footer.innerHTML = `
           <ul class="list-unstyled text-muted">
             <li class="mb-2"><a href="" class="text-secondary text-decoration-none">Marketplace</a></li>
             <li class="mb-2"><a href="" class="text-secondary text-decoration-none">Dashboard</a></li>
-            <li><a href="" class="text-secondary text-decoration-none">Partners</a></li>
+            <li class="mb-2"><a href="" class="text-secondary text-decoration-none">Partners</a></li>
           </ul>
         </div>
 
@@ -28,7 +28,7 @@ footer.innerHTML = `
           <ul class="list-unstyled text-muted">
             <li class="mb-2"><a href="" class="text-secondary text-decoration-none">Guide</a></li>
             <li class="mb-2"><a href="" class="text-secondary text-decoration-none">Assets</a></li>
-            <li><a href="" class="text-secondary text-decoration-none">Source</a></li>
+            <li class="mb-2"><a href="" class="text-secondary text-decoration-none">Source</a></li>
           </ul>
         </div>
 
@@ -37,7 +37,7 @@ footer.innerHTML = `
           <ul class="list-unstyled text-muted">
             <li class="mb-2"><a href="" class="text-secondary text-decoration-none">About</a></li>
             <li class="mb-2"><a href="" class="text-secondary text-decoration-none">Contact</a></li>
-            <li><a href="" class="text-secondary text-decoration-none">Partners</a></li>
+            <li class="mb-2"><a href="" class="text-secondary text-decoration-none">Partners</a></li>
           </ul>
         </div>
       </div>

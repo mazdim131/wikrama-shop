@@ -24,10 +24,10 @@ navbar.innerHTML = `
         </li>        
 
         <a class="nav-link text-center" style="margin-right: 10px;" href="#">Guide</a>
-        <a class="nav-link text-center" style="margin-right: 10px;" href="#">About</a>
+        <a class="nav-link text-center" style="margin-right: 10px;" href="/src/js/structure/about.html">About</a>
         <a class="nav-link text-center" style="margin-right: 10px;" href="#">Company</a>
         <a class="nav-link text-center" style="margin-right: 10px;" href="#">Contact</a>
-        <a class="nav-link text-center btn-dashboard" href="#">Partners</a>
+        <a class="nav-link text-center btn-partners" href="#">Partners</a>
       </div>
     </div>
   </div>
