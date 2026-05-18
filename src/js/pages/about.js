@@ -61,18 +61,18 @@ content.innerHTML = `
 
     <div class="second-layer">
         <div class="text-center animate__animated animate__fadeInDown">
-        <h1 style="margin-top: 10%;">
+        <h1 style="margin-top: 10%;" class="reveal">
             Cara Baru Mendukung 
             <span style="background-color: #E67E22; border-radius: 50px; padding-left: 10px; padding-right: 10px; padding-bottom: 5px; color: white;">Ekonomi Sekolah</span>
         </h1>
-        <p>
+        <p class="reveal">
             Platform digital resmi Wikrama untuk memudahkan transaksi harian dan mendukung<br> pertumbuhan wirausaha muda di lingkungan sekolah.
         </p>
 
-        <img src="/src/assets/images/51f73e7785f7aebb29e3c0c23016dfe8.jpg" class="rounded-5" style="width: 900px;">
+        <img src="/src/assets/images/51f73e7785f7aebb29e3c0c23016dfe8.jpg" class="rounded-5 reveal" style="width: 900px;">
 
-        <div style="margin-top: 70px; border-top: 2px solid white;"></div>
-            <div class="d-flex sponsors-logo flex-column flex-md-row flex-wrap justify-content-center align-items-center gap-4 gap-md-5 mx-auto mt-5">
+        <div style="margin-top: 70px; border-top: 2px solid white;" class="reveal"></div>
+            <div class="d-flex sponsors-logo flex-column flex-md-row flex-wrap justify-content-center align-items-center gap-4 gap-md-5 mx-auto mt-5 reveal">
                 <div style="width: 18rem;">
   <div class="card-body">
 
@@ -135,19 +135,19 @@ content.innerHTML = `
   <div class="row gx-5">
     <div class="col">
       <div class="p-3">
-        <h1 class="">
+        <h1 class="reveal">
             The story of 
             <span style="background-color: #E67E22; border-radius: 30px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px; color: white;">Wikrama Shop</span>
         </h1>
 
-        <div class="d-flex gap-3" style="margin-top: 100px;">
+        <div class="d-flex gap-3 reveal" style="margin-top: 100px;">
             <button type="button" class="btn-subquest" id="btn-subquest" onclick="submissionMission()" style="background-color: #e67e22; color: white !important;">Mission</button>
             <button type="button" class="btn-subquest" id="btn-subquest" onclick="submissionPlacement()">Placements</button>
             <button type="button" class="btn-subquest" id="btn-subquest" onclick="submissionPartners()">Partners</button>
         </div>
 
-        <div id="out-teks">
-        <p class="mt-5">
+        <div id="out-teks" class="reveal">
+        <p class="mt-5 reveal">
         Kami percaya bahwa setiap siswa memiliki potensi wirausaha yang luar biasa.
         Misi Wikrama Shop adalah menyediakan ekosistem perdagangan digital yang inklusif di 
         lingkungan sekolah, menjembatani produk karya siswa dengan seluruh warga sekolah, serta menanamkan 
@@ -160,7 +160,7 @@ content.innerHTML = `
     <div class="col">
       <div class="p-3">
       
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="reveal carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner rounded-5">
     <div class="carousel-item active">
       <img src="/src/assets/images/1724118669-post.png" class="d-block w-100" alt="...">

@@ -10,23 +10,11 @@ navbar.innerHTML = `
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav d-flex justify-content-end ms-auto">
-        <a class="nav-link active text-center home" aria-current="page" href="/index.html">Home</a>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Solutions
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>        
-
+        <a class="nav-link active text-center home" aria-current="page" href="/index.html">Home</a>   
         <a class="nav-link text-center" style="margin-right: 10px;" href="#">Guide</a>
         <a class="nav-link text-center" style="margin-right: 10px;" href="/src/js/structure/about.html">About</a>
         <a class="nav-link text-center" style="margin-right: 10px;" href="#">Company</a>
-        <a class="nav-link text-center" style="margin-right: 10px;" href="#">Contact</a>
+        <a class="nav-link text-center" style="margin-right: 10px;" href="/src/js/structure/contact.html">Contact</a>
         <a class="nav-link text-center btn-partners" href="#">Partners</a>
       </div>
     </div>

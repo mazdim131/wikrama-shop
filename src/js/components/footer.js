@@ -1,6 +1,6 @@
 let footer = document.getElementById('footer');
 footer.innerHTML = `
-    <footer class="footer-section py-5 animate__animated animate__fadeIn">
+    <footer class="footer-section py-5 animate__animated animate__fadeIn reveal">
   <div class="container">
     <div class="footer-card bg-white p-5 shadow-sm">
       <div class="row gy-4">
@@ -36,7 +36,7 @@ footer.innerHTML = `
           <h6 class="fw-bold">Company</h6>
           <ul class="list-unstyled text-muted">
             <li class="mb-2"><a href="" class="text-secondary text-decoration-none">About</a></li>
-            <li class="mb-2"><a href="" class="text-secondary text-decoration-none">Contact</a></li>
+            <li class="mb-2"><a href="/src/js/structure/contact.html" class="text-secondary text-decoration-none">Contact</a></li>
             <li class="mb-2"><a href="" class="text-secondary text-decoration-none">Partners</a></li>
           </ul>
         </div>
