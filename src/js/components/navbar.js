@@ -15,7 +15,7 @@ navbar.innerHTML = `
         <a class="nav-link text-center" style="margin-right: 10px;" href="/src/js/structure/about.html">About</a>
         <a class="nav-link text-center" style="margin-right: 10px;" href="#">Company</a>
         <a class="nav-link text-center" style="margin-right: 10px;" href="/src/js/structure/contact.html">Contact</a>
-        <a class="nav-link text-center btn-partners" href="#">Partners</a>
+        <a class="nav-link text-center btn-partners" href="/src/js/structure/partners.html">Partners</a>
       </div>
     </div>
   </div>
