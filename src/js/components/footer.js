@@ -17,7 +17,7 @@ footer.innerHTML = `
         <div class="col-lg-2 col-6">
           <h6 class="fw-bold">Product</h6>
           <ul class="list-unstyled text-muted">
-            <li class="mb-2"><a href="" class="text-secondary text-decoration-none">Marketplace</a></li>
+            <li class="mb-2"><a href="/src/js/structure/market.html" class="text-secondary text-decoration-none">Marketplace</a></li>
             <li class="mb-2"><a href="" class="text-secondary text-decoration-none">Dashboard</a></li>
             <li class="mb-2"><a href="" class="text-secondary text-decoration-none">Partners</a></li>
           </ul>
@@ -35,7 +35,7 @@ footer.innerHTML = `
         <div class="col-lg-2 col-6">
           <h6 class="fw-bold">Company</h6>
           <ul class="list-unstyled text-muted">
-            <li class="mb-2"><a href="" class="text-secondary text-decoration-none">About</a></li>
+            <li class="mb-2"><a href="/src/js/structure/about.html" class="text-secondary text-decoration-none">About</a></li>
             <li class="mb-2"><a href="/src/js/structure/contact.html" class="text-secondary text-decoration-none">Contact</a></li>
             <li class="mb-2"><a href="" class="text-secondary text-decoration-none">Partners</a></li>
           </ul>

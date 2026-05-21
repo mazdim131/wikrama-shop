@@ -1,4 +1,9 @@
 let content = document.getElementById("content");
+
+function goToMarket() {
+    window.location.href = '/src/js/structure/market.html';
+}
+
 content.innerHTML = `
     <div class="container-sm animate__animated animate__fadeIn" style="margin-bottom: 15%;">
         
@@ -19,7 +24,7 @@ content.innerHTML = `
 
         <div class="d-flex gap-3 justify-content-center mt-4">
             <button class="btn btn-outline-light btn-demo">View Demo</button>
-            <button class="btn btn-order">Order a Product</button>
+            <button class="btn btn-order" onclick="goToMarket()">Order a Product</button>
         </div>
 
         <div style="margin-top: 150px; border-top: 2px solid white;"></div>

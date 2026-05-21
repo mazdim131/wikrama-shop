@@ -13,7 +13,7 @@ navbar.innerHTML = `
         <a class="nav-link active text-center home" aria-current="page" href="/index.html">Home</a>   
         <a class="nav-link text-center" style="margin-right: 10px;" href="#">Guide</a>
         <a class="nav-link text-center" style="margin-right: 10px;" href="/src/js/structure/about.html">About</a>
-        <a class="nav-link text-center" style="margin-right: 10px;" href="#">Company</a>
+        <a class="nav-link text-center" style="margin-right: 10px;" href="/src/js/structure/company.html">Company</a>
         <a class="nav-link text-center" style="margin-right: 10px;" href="/src/js/structure/contact.html">Contact</a>
         <a class="nav-link text-center btn-partners" href="#">Partners</a>
       </div>
