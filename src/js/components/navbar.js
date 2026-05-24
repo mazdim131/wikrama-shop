@@ -11,11 +11,11 @@ navbar.innerHTML = `
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav d-flex justify-content-end ms-auto">
         <a class="nav-link active text-center home" aria-current="page" href="/index.html">Home</a>   
-        <a class="nav-link text-center" style="margin-right: 10px;" href="#">Guide</a>
+        <a class="nav-link text-center" style="margin-right: 10px;" href="/src/js/structure/guide.html">Guide</a>
         <a class="nav-link text-center" style="margin-right: 10px;" href="/src/js/structure/about.html">About</a>
         <a class="nav-link text-center" style="margin-right: 10px;" href="/src/js/structure/company.html">Company</a>
         <a class="nav-link text-center" style="margin-right: 10px;" href="/src/js/structure/contact.html">Contact</a>
-        <a class="nav-link text-center btn-partners" href="#">Partners</a>
+        <a class="nav-link text-center btn-partners" href="/src/js/structure/partners.html">Partners</a>
       </div>
     </div>
   </div>
